@@ -1,0 +1,40 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+body {
+    background-color: white;
+}
+
+$myprimary : #62605d;
+$mysecondary : #18d1a9;
+
+
+.myprimary{
+    color : $myprimary;
+}
+
+.mysecondary{
+    color : $mysecondary;
+}
+
+.mybg-primary{
+    background-color : $myprimary;
+}
+
+.mybg-secondary{
+    background-color :  $mysecondary;
+}
+.left-container{
+    color: #F2FFFA;
+}
+
+
+.white{
+    color: #F2FFFA;
+}
+
+.bg-lightgray{
+    background-color : lightgray;
+}
