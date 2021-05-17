@@ -38,3 +38,11 @@ $mysecondary : #18d1a9;
 .bg-lightgray{
     background-color : lightgray;
 }
+
+table tr:nth-child(odd){
+    background-color : #e3e3e3;
+}
+
+tr td:nth-child(n){
+    margin-right: 1em;
+}
