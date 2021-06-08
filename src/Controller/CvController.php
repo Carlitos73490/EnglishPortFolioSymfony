@@ -16,7 +16,7 @@ class CvController extends AbstractController
         $technicalSkills = array();
         $osSkills = array();
 
-        array_push( $technicalSkills ,new IconSkill("HTML/CSS",100,"fab fa-html5"),new IconSkill("CSS",88,"fab fa-css3"),new IconSkill("LESS",80,"fab fa-less"),new Skill("KOTLIN",70),new Skill("FLUTTER",66),new Skill("TYPESCRIPT",80),new IconSkill("JAVASCRIPT",80,"fab fa-js"),new Skill("C#/.NET",91),new IconSkill("PHP",85,"fab fa-php"),new Skill("SQL",64));
+        array_push( $technicalSkills ,new IconSkill("HTML/CSS",100,"fab fa-html5"),new IconSkill("CSS",88,"fab fa-css3"),new IconSkill("LESS",80,"fab fa-less"),new Skill("KOTLIN",70),new Skill("FLUTTER",66),new Skill("TYPESCRIPT",80),new IconSkill("JAVASCRIPT",80,"fab fa-js"),new Skill("C#/.NET",91),new IconSkill("PHP",85,"fab fa-php"),new Skill("SQL",64),new Skill("Swift",54));
 
         array_push( $designSkills,new Skill("PHOTOSHOP",60),new Skill("FINAL CUT",50),new Skill("BLENDER",40));
         array_push( $osSkills,new IconSkill("Windows",100,"fab fa-windows"),new IconSkill("macOS",95,"fab fa-apple"),new IconSkill("Linux",80,"fab fa-ubuntu"));

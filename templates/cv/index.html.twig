@@ -1,5 +1,6 @@
 {% extends 'base.html.twig' %}
 
+
 {% block title %}Carl Fuchs PortFolio{% endblock %}
 
 {% block body %}
@@ -62,17 +63,21 @@
 
     </div>
     <div class="w-75 d-flex flex-column p-5 bg-lightgray overflow-auto">
-        <div class="d-flex justify-content-between">
-            <div class="d-flex flex-column align-items-center me-5">
+        <div class="d-flex justify-content-between mb-4  p-3 bg-light shadow">
+            <div class="d-flex flex-column mx-2">
                 <h1>Carl Fuchs</h1>
-                <h3><i class="fas fa-phone-alt"></i> +33(0)3395090981</h3>
-                <h3><i class="fas fa-envelope"></i> CARL.FUCHS@ICLOUD.COM</h3>
-                <h3><i class="fas fa-birthday-cake"></i> DATE OF BIRTH 17 JAN 1999</h3>
+                <hr>
+                <h4><i class="fas fa-phone-alt"></i> +33(0)3395090981</h4>
+                <h4><i class="fas fa-envelope"></i> CARL.FUCHS@ICLOUD.COM</h4>
+                <h4><i class="fas fa-birthday-cake"></i> DATE OF BIRTH 17 JAN 1999</h4>
             </div>
-            <div class="d-flex flex-column align-items-center">
+            <div class="d-flex flex-column mx-2">
                 <h1>IT Student</h1>
-
-                <h3><i class="fas fa-home"></i> 480 RUE ST EXUPERY,LA RAVOIRE,73490,FRANCE</h3>
+                <hr>
+                <h4><i class="fas fa-home"></i> 480 RUE ST EXUPERY, LA RAVOIRE, 73490, FRANCE</h4>
+                <div class="d-flex justify-content-center align-items-center h-100 ">
+                    <a href="CV2021.pdf" download="CV Carl Fuchs 2021.pdf"><h1 class="align-items-center cursor-pointer"><i class="fa fa-print" aria-hidden="true"></i></h1></a>
+                </div>
             </div>
         </div>
         <h2 class="mybg-secondary rounded-2 p-1 shadow">EXPERIENCES</h2>
@@ -81,11 +86,12 @@
                 <td><h2>2020/2021</h2></td>
                 <td>
                     <h4>RESEARCH AND DEVELOPMENT DEVELOPER : TS,C# .NET WEBSITE</h4>
+                    <hr>
                     <h5>TechForm Sas : 35 peoples company
                         Specialized in Cloud CPQ solutions
                         Creating a Wiki solutions using the Techform smartConfigurator
                         FrameWork </h5>
-                    <h5 class="font-italic"><i class="fas fa-map-pin"></i> TECHFORM SAS (CLOUD CPQ) - CHAVANOD 74067,FRANCE</h5>
+                    <h5 class="font-italic"><i class="fas fa-map-pin red"></i> TECHFORM SAS (CLOUD CPQ) - CHAVANOD 74067,FRANCE</h5>
                 </td>
             </tr>
             <tr>
@@ -93,9 +99,10 @@
                         FEBRUARY 2020</h2></td>
                 <td>
                     <h4>PHP DEVELOPER </h4>
+                    <hr>
                     <h5>New ERP integration at the CHU(teaching hospital center) of Annecy at
                         research and development team </h5>
-                    <h5><i class="fas fa-map-pin"></i> CHU ANNECY 74000 ANNECY,FRANCE</h5>
+                    <h5><i class="fas fa-map-pin red"></i> CHU ANNECY 74000 ANNECY,FRANCE</h5>
                 </td>
             </tr>
             <tr>
@@ -103,10 +110,11 @@
                         SUMMER 2020</h2></td>
                 <td>
                     <h4>AUTOMOBILE AESTHETIC PREPARER </h4>
+                    <hr>
                     <h5>Jeain Lain Automobile sas
                         20 car dealership in France
                         Summer Job</h5>
-                    <h5><i class="fas fa-map-pin"></i> JEAN LAIN AUTOMOBILE - LA MOTTE-SERVOLEX 73179,FRANCE</h5>
+                    <h5><i class="fas fa-map-pin red"></i> JEAN LAIN AUTOMOBILE - LA MOTTE-SERVOLEX 73179,FRANCE</h5>
                 </td>
             </tr>
             <tr>
@@ -114,27 +122,30 @@
                         2019</h2></td>
                 <td>
                     <h4>DELPHI DEVELOPER </h4>
+                    <hr>
                     <h5>Bio-Logic science instruments , international company 7 offices
                         around the world
                         Optimizing the communications software for the science product
                         using threads</h5>
-                    <h5><i class="fas fa-map-pin"></i> BIO-LOGIC SCIENCE INSTRUMENTS - GRENOBLE 38000,FRANCE</h5>
+                    <h5><i class="fas fa-map-pin red"></i> BIO-LOGIC SCIENCE INSTRUMENTS - GRENOBLE 38000,FRANCE</h5>
                 </td>
             </tr>
             <tr>
                 <td><h2>SEPTEMBER 2016</h2></td>
                 <td>
                     <h4>WEB DÉVELOPPEMENT </h4>
+                    <hr>
                     <h5>Website creation for a jeweler
                         (UPDATE 2020 - www.charlesfuchs.fr) </h5>
-                    <h5><i class="fas fa-map-pin"></i> HORLOGERIE FUCHS - 73000 CHAMBÉRY,FRANCE</h5>
+                    <h5><i class="fas fa-map-pin red"></i> HORLOGERIE FUCHS - 73000 CHAMBÉRY,FRANCE</h5>
                 </td>
             </tr>
             <tr>
                 <td><h2>DECEMBER 2014</h2></td>
                 <td>
                     <h4>DATABASE ADMINISTRATION  </h4>
-                    <h5><i class="fas fa-map-pin"></i> TOURIST OFFICE - 73000 CHAMBÉRY,FRANCE</h5>
+                    <hr>
+                    <h5><i class="fas fa-map-pin red"></i> TOURIST OFFICE - 73000 CHAMBÉRY,FRANCE</h5>
                 </td>
             </tr>
         </table>
@@ -148,7 +159,8 @@
                 LP DIM(PROFESSIONAL BACHELOR’S DEGREE IN MULTI-PLATFORM
         SOFTWARE DEVELOPMENT) – SANDWICH COURSE
                     </h4>
-                    <h5><i class="fas fa-map-pin"></i> CCI/ANNECY / UNIVERSITY OF SAVOY / IUT ANNECY – ANNECY-LE-VIEUX FRANCE</h5>
+                    <hr>
+                    <h5><i class="fas fa-map-pin red"></i> CCI/ANNECY / UNIVERSITY OF SAVOY / IUT ANNECY – ANNECY-LE-VIEUX FRANCE</h5>
                 </td>
             </tr>
             <tr>
@@ -159,14 +171,16 @@
         INFORMATICAL SOLUTION FOR ENTREPRISE WITH AN OPTION
         SOFTWARE AND BUSINESS APPLICATION
                     </h4>
-                    <h5><i class="fas fa-map-pin"></i> COLLEGE LOUISE MICHEL GRENOBLE,FRANCE</h5>
+                    <hr>
+                    <h5><i class="fas fa-map-pin red"></i> COLLEGE LOUISE MICHEL GRENOBLE,FRANCE</h5>
                 </td>
             </tr>
             <tr>
                 <td><h2>SEPTEMBER 2017 MARCH 2019</h2></td>
                 <td>
                     <h4>DUT INFORMATIQUE(2-YEAR UNIVERSITY DIPLOMA IN COMPUTER SCIENCE)</h4>
-                    <h5><i class="fas fa-map-pin"></i> UGA Grenoble – IUT 2 Grenoble,France</h5>
+                    <hr>
+                    <h5><i class="fas fa-map-pin red"></i> UGA Grenoble – IUT 2 Grenoble,France</h5>
                 </td>
             </tr>
             <tr>
@@ -175,20 +189,104 @@
                     <h4>FRENCH BACCALAUREAT STMG OPTION SIG(HIGH SCOOL DIPLOMA
                         SPECIALIZED IN MANAGEMENT OPTION MANAGEMENT
                         INFORMATION SYSTEMS) WITH HIGH HONORS</h4>
-                    <h5><i class="fas fa-map-pin"></i> COLLEGE du Granier, La RAVOIRE 73490,France</h5>
+                    <hr>
+                    <h5><i class="fas fa-map-pin red"></i> COLLEGE du Granier, La RAVOIRE 73490,France</h5>
                 </td>
             </tr>
         </table>
+
+        <h2 class="mybg-secondary rounded-2 p-1 shadow ">PortFolio</h2>
+        <div class="d-flex flex-column justify-content-center align-items-center mb-2">
+            <h3>Techform Wiki (Typescript/C#)</h3>
+            <div id="carouselWiki" class="carousel slide w-50" data-ride="carousel" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 active" src="wiki/wiki1.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="wiki/wiki2.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="wiki/wiki3.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="wiki/wiki4.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="wiki/wiki5.png" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselWiki" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselWiki" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <h3>Space DIM (Android)</h3>
+
+            <div id="carouselSpaceDim" class="carousel slide w-50" data-ride="carousel" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 active" src="spacedim/sapaceDim1.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="spacedim/sapaceDim2.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="spacedim/sapaceDim3.png" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselSpaceDim" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselSpaceDim" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <h3>Pop Corn App (iOS)</h3>
+
+            <div id="carouselPopCorn" class="carousel slide w-50" data-ride="carousel" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 active" src="popcorn/ios1.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="popcorn/ios2.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="popcorn/ios3.png" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselPopCorn" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselPopCorn" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+
         <h2 class="mybg-secondary rounded-2 p-1 shadow">MISCELLANEOUS</h2>
         <table>
         <tr>
             <td><h2>DECEMBER 2019</h2></td>
             <td>
                 <h4>NUIT DE L’INFORMATIQUE</h4>
+                <hr>
                 <h5>1st place of the CS GROUP(2200 employees) treasure hunt with the
                     win of a 1500€ price with the help of 4 others Student for the College
                 </h5>
-                <h5> <i class="fas fa-map-pin"></i> Louise michel - GRENOBLE 38000,France</h5>
+                <h5> <i class="fas fa-map-pin red"></i> Louise michel - GRENOBLE 38000,France</h5>
             </td>
         </tr>
         </table>
@@ -236,30 +334,36 @@
             </tr>
         </table>
         <h2 class="mybg-secondary rounded-2 p-1 shadow">REFERENCES</h2>
-        <div class="d-flex">
-            <div><h3><i class="fas fa-user"></i> Mme Balland</h3>
+        <div class="d-flex justify-content-around mt-3 mb-3" >
+            <div class="p-3 bg-light shadow"><h3><i class="fas fa-user"></i> Mme Balland</h3>
                 <h4>Database conception and C# teacher</h4>
                 <h4>Lycée Louise Michel Grenoble</h4>
                 <h4>cballand@univ-grenoble.fr</h4>
                 </div>
-            <div>
-                <h3><i class="fas fa-user"></i> Mr Barberi</h3>
+            <div class="p-3 bg-light shadow">
+                <h3><i class="fas fa-user"></i> Barberi Caténo</h3>
                 <h4>Chief product officer</h4>
-                <h4>TehForm sas</h4>
-                <h4>Cbarberie@techform.fr</h4></div>
+                <h4>TehcForm SAS</h4>
+                <h4>cbarberie@techform.fr</h4></div>
         </div>
         <h2 class="mybg-secondary rounded-2 p-1 shadow">PERSONNEL SKILLS</h2>
-        <p>
-            -im a determinated,dynamic and persevered
-            -hard worker , I never give up on a project unless it wor
+        <p>im a determinated,dynamic and persevered hard worker
+        </p>
+
+        <p>I never give up on a project unless it work
         </p>
         <h2 class="mybg-secondary rounded-2 p-1 shadow">JOB OBJECTIVE</h2>
         <p>
-            Currently apprentice développer at Techform sas, a cloud cpq software editor, in the
+            Currently apprentice developer at Techform sas, a cloud cpq software editor, in the
             Research and development department, I’m capable of managing long term projet with
             success.
             In my formations and job experiences I acquired a good knowledges in mobile and web development
         </p>
     </div>
+
+    <script>
+        console.log($("carousel"))
+    </script>
+
 </div>
 {% endblock %}

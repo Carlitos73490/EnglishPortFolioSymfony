@@ -10,7 +10,12 @@
 
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
+            {{ encore_entry_script_tags('jquery') }}
+            {{ encore_entry_script_tags('popperjs') }}
+            {{ encore_entry_script_tags('bootstrap') }}
         {% endblock %}
+        <script src="./node_modules/jquery/dist/jquery.js">
+        </script>
     </head>
     <body class="vh-100 p-3">
     <div class="h-100 ">

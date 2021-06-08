@@ -30,13 +30,25 @@ $mysecondary : #18d1a9;
     color: #F2FFFA;
 }
 
+.cursor-pointer{
+    cursor: pointer;
+}
+
 
 .white{
     color: #F2FFFA;
 }
+.red{
+    color: #cb1d2b;
+}
 
 .bg-lightgray{
     background-color : lightgray;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing:3em;
 }
 
 table tr:nth-child(odd){
@@ -46,3 +58,12 @@ table tr:nth-child(odd){
 tr td:nth-child(n){
     margin-right: 1em;
 }
+
+
+td{
+    padding: 1em;
+}
+
+
+
+
