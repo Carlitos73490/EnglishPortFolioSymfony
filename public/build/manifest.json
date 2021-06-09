@@ -1,7 +1,7 @@
 {
-  "build/app.css": "/build/app.d49de35c.css",
-  "build/app.js": "/build/app.5415922d.js",
-  "build/runtime.js": "/build/runtime.c7f5ad70.js",
+  "build/app.css": "/build/app.css",
+  "build/app.js": "/build/app.js",
+  "build/runtime.js": "/build/runtime.js",
   "build/images/fa-solid-900.svg": "/build/images/fa-solid-900.13de59f1.svg",
   "build/images/fa-brands-400.svg": "/build/images/fa-brands-400.216edb96.svg",
   "build/fonts/fa-solid-900.eot": "/build/fonts/fa-solid-900.efbd5d20.eot",
