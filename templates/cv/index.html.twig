@@ -7,7 +7,7 @@
 
 
 <div class="d-flex h-100">
-    <div class="w-25 d-flex flex-column p-5 mybg-primary left-container shadow">
+    <div class="w-25 d-flex flex-column p-5 mybg-primary left-container shadow overflow-auto">
         <h3><i class="far fa-user"></i> PERSONNEL</h3>
         <p><i class="fas fa-id-card"></i> DRIVING LICENCE (2017)</p>
         <p><i class="fas fa-car"></i> PERSONAL VEHICULE</p>
@@ -60,7 +60,20 @@
             {% endfor %}
         </ul>
 
+        <h2 class="mybg-secondary rounded-2 p-1 shadow">CONTACT</h2>
 
+        {{ form_start(form) }}
+        <div class="my-custom-class-for-errors">
+            {{ form_errors(form) }}
+        </div>
+
+        <div class="d-flex flex-column row">
+                <div class="col">{{ form_row(form.Nom) }}</div>
+                <div class="col"> {{ form_row(form.Prenom) }}</div>
+                <div class="col"> {{ form_row(form.Message) }}</div>
+                <div class="button"> {{ form_row(form.Envoyer) }}</div>
+        </div>
+        {{ form_end(form) }}
     </div>
     <div class="w-75 d-flex flex-column p-5 bg-lightgray overflow-auto">
         <div class="d-flex justify-content-between mb-4  p-3 bg-light shadow">
@@ -359,11 +372,9 @@
             success.
             In my formations and job experiences I acquired a good knowledges in mobile and web development
         </p>
+
     </div>
 
-    <script>
-        console.log($("carousel"))
-    </script>
 
 </div>
 {% endblock %}

@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Form\ContactType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -21,13 +22,15 @@ class CvController extends AbstractController
         array_push( $designSkills,new Skill("PHOTOSHOP",60),new Skill("FINAL CUT",50),new Skill("BLENDER",40));
         array_push( $osSkills,new IconSkill("Windows",100,"fab fa-windows"),new IconSkill("macOS",95,"fab fa-apple"),new IconSkill("Linux",80,"fab fa-ubuntu"));
 
+        $form = $this->createForm(ContactType::class);
 
         return $this->render('cv/index.html.twig', [
 
             'controller_name' => 'CvController',
             'technicalSkills' => $technicalSkills,
             'designSkills' => $designSkills,
-            'osSkills' => $osSkills
+            'osSkills' => $osSkills,
+            'form' => $form->createView()
         ]);
     }
 }
@@ -44,8 +47,7 @@ class Skill{
 class IconSkill extends Skill{
     public string $icon;
     function __construct(string $aname,int $alevel,string $aicon) {
-        $this->name = $aname;
-        $this->level = $alevel;
+        parent::__construct($aname,$alevel);
         $this->icon = $aicon;
     }
 }
