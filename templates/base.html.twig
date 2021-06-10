@@ -5,12 +5,11 @@
         <title>{% block title %}Welcome!{% endblock %}</title>
 
         {% block stylesheets %}
-            <link href="build/app.css" rel="stylesheet">
-            {{ 'public/' ~ encore_entry_link_tags('app') }}
+            {{encore_entry_link_tags('app') }}
         {% endblock %}
 
         {% block javascripts %}
-            {{ 'public/' ~ encore_entry_script_tags('app') }}
+            {{encore_entry_script_tags('app') }}
 
         {% endblock %}
 
