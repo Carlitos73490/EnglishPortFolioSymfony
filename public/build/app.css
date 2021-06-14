@@ -16923,3 +16923,7 @@ td {
   justify-content: center;
   align-items: center;
 }
+
+.w-40 {
+  width: 40%;
+}

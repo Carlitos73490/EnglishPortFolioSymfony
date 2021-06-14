@@ -8,11 +8,11 @@
 
 <div class="d-flex h-100">
     <div class="w-25 d-flex flex-column p-5 mybg-primary left-container shadow overflow-auto">
-        <h3><i class="far fa-user"></i> PERSONNEL</h3>
-        <p><i class="fas fa-id-card"></i> DRIVING LICENCE (2017)</p>
+        <h3><i class="far fa-user mysecondary"></i> PERSONNEL</h3>
+        <p><i class="fas fa-id-card "></i> DRIVING LICENCE (2017)</p>
         <p><i class="fas fa-car"></i> PERSONAL VEHICULE</p>
 
-        <h3> <i class="fas fa-language"></i> LANGUAGES</h3>
+        <h3> <i class="fas fa-language mysecondary"></i> LANGUAGES</h3>
         <div class="d-flex">
             <div class="w-50">
                 <p class="font-weight-normal">French</p>
@@ -21,7 +21,7 @@
                 <p class="font-weight-normal">English (B2)</p>
             </div>
         </div>
-        <h3><i class="fas fa-cogs"></i> TECHNICAL SKILLS</h3>
+        <h3><i class="fas fa-cogs mysecondary"></i> TECHNICAL SKILLS</h3>
 
         <ul>
             {% for skill in technicalSkills %}
@@ -36,7 +36,7 @@
             {% endfor %}
         </ul>
 
-        <h3><i class="fas fa-pen-fancy"></i> DESIGN SKILLS</h3>
+        <h3><i class="fas fa-pen-fancy mysecondary"></i> DESIGN SKILLS</h3>
         <ul>
             {% for skill in designSkills %}
                 <li class="progress m-2">
@@ -46,7 +46,7 @@
             {% endfor %}
         </ul>
 
-        <h3><i class="fab fa-windows"></i> OS SKILLS</h3>
+        <h3><i class="fab fa-windows mysecondary"></i> OS SKILLS</h3>
         <ul>
             {% for skill in osSkills %}
                 <li class="progress m-2">
@@ -80,14 +80,14 @@
             <div class="d-flex flex-column mx-2">
                 <h1>Carl Fuchs</h1>
                 <hr>
-                <h4><i class="fas fa-phone-alt"></i> +33(0)3395090981</h4>
-                <h4><i class="fas fa-envelope"></i> CARL.FUCHS@ICLOUD.COM</h4>
-                <h4><i class="fas fa-birthday-cake"></i> DATE OF BIRTH 17 JAN 1999</h4>
+                <h4><i class="fas fa-phone-alt mysecondary"></i> +33(0)3395090981</h4>
+                <h4><i class="fas fa-envelope mysecondary"></i> CARL.FUCHS@ICLOUD.COM</h4>
+                <h4><i class="fas fa-birthday-cake mysecondary"></i> DATE OF BIRTH 17 JAN 1999</h4>
             </div>
             <div class="d-flex flex-column mx-2">
                 <h1>IT Student</h1>
                 <hr>
-                <h4><i class="fas fa-home"></i>LA RAVOIRE, 73490, FRANCE</h4>
+                <h4><i class="fas fa-home mysecondary"></i> LA RAVOIRE, 73490, FRANCE</h4>
                 <div class="d-flex justify-content-center align-items-center h-100 ">
                     <a href="CV2021.pdf" download="CV Carl Fuchs 2021.pdf"><h1 class="align-items-center cursor-pointer"><i class="fa fa-print" aria-hidden="true"></i></h1></a>
                 </div>
@@ -348,31 +348,34 @@
         </table>
         <h2 class="mybg-secondary rounded-2 p-1 shadow">REFERENCES</h2>
         <div class="d-flex justify-content-around mt-3 mb-3" >
-            <div class="p-3 bg-light shadow"><h3><i class="fas fa-user"></i> Mme Balland</h3>
-                <h4>Database conception and C# teacher</h4>
-                <h4>Lycée Louise Michel Grenoble</h4>
-                <h4>cballand@univ-grenoble.fr</h4>
+            <div class="p-3 bg-light shadow w-40"><h3><i class="fas fa-user"></i> Mme Balland</h3>
+                <h4><i class="fas fa-user-md"></i> Database conception and C# teacher</h4>
+                <h4><i class="fas fa-map-pin red"></i> Lycée Louise Michel Grenoble</h4>
+                <a href="mailto:cballand@univ-grenoble.fr"><h4><i class="fas fa-mail-bulk"></i> cballand@univ-grenoble.fr</h4></a>
                 </div>
-            <div class="p-3 bg-light shadow">
+            <div class="p-3 bg-light shadow w-40">
                 <h3><i class="fas fa-user"></i> Barberi Caténo</h3>
-                <h4>Chief product officer</h4>
-                <h4>TehcForm SAS</h4>
-                <h4>cbarberie@techform.fr</h4></div>
+                <h4><i class="fas fa-user-md"></i> Chief product officer</h4>
+                <h4><i class="fas fa-map-pin red"></i> TechForm SAS</h4>
+                <a href="mailto:cbarberie@techform.fr"><h4><i class="fas fa-mail-bulk"></i> cbarberie@techform.fr</h4></a>
+            </div>
         </div>
         <h2 class="mybg-secondary rounded-2 p-1 shadow">PERSONNEL SKILLS</h2>
-        <p>im a determinated,dynamic and persevered hard worker
-        </p>
+        <div class="p-3 bg-light shadow mb-3">
+            <p class="display-6">Im a determinated,dynamic and persevered hard worker</p>
 
-        <p>I never give up on a project unless it work
-        </p>
+            <p class="display-6">I never give up on a project unless it work</p>
+        </div>
+
         <h2 class="mybg-secondary rounded-2 p-1 shadow">JOB OBJECTIVE</h2>
-        <p>
-            Currently apprentice developer at Techform sas, a cloud cpq software editor, in the
-            Research and development department, I’m capable of managing long term projet with
-            success.
-            In my formations and job experiences I acquired a good knowledges in mobile and web development
-        </p>
-
+        <div class="p-3 bg-light shadow">
+            <p class="display-6">
+                Currently apprentice developer at Techform SAS, a CLOUD CPQ SOFTWARE EDITOR, in the
+                Research and Development department, I’m capable of managing long term projects with
+                success.
+                In my formations and job experiences I acquired a good knowledge's in mobile and web developments
+            </p>
+        </div>
     </div>
 
 
